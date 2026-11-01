@@ -1,0 +1,17 @@
+html.rtl-everywhere, html.rtl-everywhere body {
+  direction: rtl !important;
+  text-align: right;
+}
+html.rtl-everywhere input,
+html.rtl-everywhere textarea,
+html.rtl-everywhere [contenteditable="true"] {
+  direction: rtl !important;
+  text-align: right !important;
+}
+html.rtl-everywhere pre,
+html.rtl-everywhere code,
+html.rtl-everywhere .ltr,
+html.rtl-everywhere [dir="ltr"] {
+  direction: ltr;
+  text-align: left;
+}
