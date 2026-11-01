@@ -9,3 +9,6 @@
   direction: rtl !important;
   text-align: right !important;
 }
+
+.jira-rtl-text p, .jira-rtl-text li, .jira-rtl-text td, .jira-rtl-text th { direction: rtl !important; text-align: right !important; }
+

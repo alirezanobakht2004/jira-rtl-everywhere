@@ -2,9 +2,14 @@
   const rtl = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]/;
   const selectors = [
     '#description-val',
+    '#descriptionmodule .user-content-block',
+    '.ak-renderer-document',
+    '.wiki-content',
     '.description .user-content-block',
     '.action-body',
     '.comment-body',
+    '.comment-content',
+    '.js-comment-body',
     '.issue-data-block.comment',
     '[id^="comment-body"]'
   ];
@@ -25,3 +30,4 @@
     characterData: true
   });
 })();
+
