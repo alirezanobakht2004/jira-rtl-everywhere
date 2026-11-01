@@ -1,15 +1,15 @@
 {
   "manifest_version": 3,
   "name": "RTL Everywhere",
-  "version": "1.0.0",
-  "description": "راست‌چین کردن صفحات وب با یک کلیک",
+  "version": "1.0.1",
+  "description": "راست‌چین کردن Jira تاپ‌تک",
   "permissions": ["storage", "activeTab", "scripting"],
   "action": {
     "default_title": "تغییر راست‌چین/چپ‌چین"
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["https://jira.toptec.ir/*"],
       "css": ["src/rtl.css"],
       "js": ["src/content.js"],
       "run_at": "document_idle"
